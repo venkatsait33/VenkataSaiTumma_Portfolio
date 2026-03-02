@@ -7,9 +7,9 @@ import canelStreet from "../assets/canelStreet.png";
 const ProjectList = () => {
   return (
     <div>
-      <div className=" flex flex-col justify-center items-center mx-auto p-4 ">
+      <div className="flex flex-col items-center justify-center p-4 mx-auto ">
         <p>PROJECTS</p>
-        <span className=" text-4xl font-semibold">Latest Projects</span>
+        <span className="text-4xl font-semibold ">Latest Projects</span>
       </div>
       <div className="">
         <ScrollStack
@@ -21,12 +21,44 @@ const ProjectList = () => {
           <ScrollStackItem>
             {" "}
             <div className=" bg-[#F7F7F7]  rounded-md ">
-              <div className="flex justify-between max-sm:flex-col gap-4">
-                <div className="p-4 flex  justify-between items-center flex-col">
-                  <div className=" font-semibold text-2xl">
+              <div className="flex justify-between gap-4 max-sm:flex-col">
+                <div className="flex flex-col items-center justify-between p-4">
+                  <div className="text-2xl font-semibold ">
+                    <p>InterviewPro</p>
+                  </div>
+                  <p className="text-gray-700 ">
+                    A self-hosted technical interview platform built for
+                    engineering teams. Schedule interviews, collaborate on code
+                    in real time, run code together, conduct video calls, and
+                    submit structured feedback — all in one browser tab with no
+                    third-party auth or job queue required.
+                  </p>
+                  {/* <button className="btn btn-lg bg-[#005063] text-white  rounded-md">
+                    Read More
+                  </button> */}
+                </div>
+                <div className="p-4 mt-8 md:pl-4">
+                  <iframe
+                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7431980134393364480?compact=1"
+                    height="399"
+                    width="704"
+                    frameborder="0"
+                    allowfullscreen=""
+                    title="Embedded post"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </ScrollStackItem>
+          <ScrollStackItem>
+            {" "}
+            <div className=" bg-[#F7F7F7]  rounded-md ">
+              <div className="flex justify-between gap-4 max-sm:flex-col">
+                <div className="flex flex-col items-center justify-between p-4">
+                  <div className="text-2xl font-semibold ">
                     <p>Intelligent Enterprise Operations & Decision Platform</p>
                   </div>
-                  <p className=" text-gray-700">
+                  <p className="text-gray-700 ">
                     A unified platform to manage workflows, ensure compliance,
                     and drive data-backed decisions across your organization.
                   </p>
@@ -34,7 +66,7 @@ const ProjectList = () => {
                     Read More
                   </button> */}
                 </div>
-                <div className="md:pl-4 p-4 mt-8">
+                <div className="p-4 mt-8 md:pl-4">
                   <iframe
                     src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7434151448902295552?compact=1"
                     height="399"
@@ -49,12 +81,12 @@ const ProjectList = () => {
           </ScrollStackItem>
           <ScrollStackItem>
             <div className=" bg-[#F7F7F7] p-4  rounded-md ">
-              <div className="flex justify-between max-sm:flex-col p-4">
-                <div className="p-4 flex justify-between items-center flex-col">
-                  <div className=" font-semibold text-2xl">
+              <div className="flex justify-between p-4 max-sm:flex-col">
+                <div className="flex flex-col items-center justify-between p-4">
+                  <div className="text-2xl font-semibold ">
                     <p>Teamhub Employee Portal</p>
                   </div>
-                  <p className=" text-gray-700">
+                  <p className="text-gray-700 ">
                     A comprehensive employee portal for managing employee data,
                     attendance, and performance.
                   </p>
@@ -73,7 +105,7 @@ const ProjectList = () => {
                       src={teamhub}
                       alt="Teamhub Employee Portal"
                       loading="lazy"
-                      className=" aspect-video rounded-l-md "
+                      className=" aspect-video rounded-l-md"
                     />
                   </picture>
                 </div>
@@ -82,12 +114,12 @@ const ProjectList = () => {
           </ScrollStackItem>
           <ScrollStackItem>
             <div className=" bg-[#F7F7F7] p-4  rounded-md ">
-              <div className="flex justify-between max-sm:flex-col p-4">
-                <div className="p-4 flex justify-between items-center flex-col">
-                  <div className=" font-semibold text-2xl">
+              <div className="flex justify-between p-4 max-sm:flex-col">
+                <div className="flex flex-col items-center justify-between p-4">
+                  <div className="text-2xl font-semibold ">
                     <p>WorkSpace for Offices</p>
                   </div>
-                  <p className=" text-gray-700">
+                  <p className="text-gray-700 ">
                     workspace for offices is a platform that helps businesses
                     manage their office space, including scheduling,
                     maintenance, and inventory management.
@@ -95,7 +127,7 @@ const ProjectList = () => {
                   <a
                     href="https://workspace-beige-alpha.vercel.app/"
                     target="_blank"
-                    className="btn btn-lg bg-black  text-white  "
+                    className="text-white bg-black btn btn-lg "
                   >
                     Live Page
                   </a>
@@ -107,7 +139,7 @@ const ProjectList = () => {
                       src={workspace}
                       alt="Workspace Portal"
                       loading="lazy"
-                      className=" aspect-video rounded-l-md "
+                      className=" aspect-video rounded-l-md"
                     />
                   </picture>
                 </div>
@@ -116,12 +148,12 @@ const ProjectList = () => {
           </ScrollStackItem>
           <ScrollStackItem>
             <div className=" bg-[#F7F7F7] p-4  rounded-md ">
-              <div className="flex justify-between max-sm:flex-col p-4">
-                <div className="p-4 flex justify-between items-center flex-col">
-                  <div className=" font-semibold text-2xl">
+              <div className="flex justify-between p-4 max-sm:flex-col">
+                <div className="flex flex-col items-center justify-between p-4">
+                  <div className="text-2xl font-semibold ">
                     <p>Canal Street</p>
                   </div>
-                  <p className=" text-gray-700">
+                  <p className="text-gray-700 ">
                     a fully responsive and dynamic replica of
                     CanalStreet.market.com This project showcases the power of
                     ReactJS, TailwindCSS, Framer Motion, and React Icons to
@@ -130,7 +162,7 @@ const ProjectList = () => {
                   <a
                     href="https://canal-street-clone.vercel.app/"
                     target="_blank"
-                    className="btn btn-lg btn-accent  text-white  "
+                    className="text-white btn btn-lg btn-accent "
                   >
                     Live Page
                   </a>
@@ -142,7 +174,7 @@ const ProjectList = () => {
                       src={canelStreet}
                       alt="canelStreet Portal"
                       loading="lazy"
-                      className=" aspect-video rounded-l-md "
+                      className=" aspect-video rounded-l-md"
                     />
                   </picture>
                 </div>
