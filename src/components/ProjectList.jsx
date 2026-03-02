@@ -41,7 +41,7 @@ const ProjectList = () => {
                     width="800"
                     frameborder="0"
                     allowfullscreen=""
-                    title="Embedded post"
+                    title="Intelligent Enterprise Operations & Decision Platform"
                   ></iframe>
                 </div>
               </div>
