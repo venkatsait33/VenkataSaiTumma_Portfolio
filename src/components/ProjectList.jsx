@@ -35,14 +35,14 @@ const ProjectList = () => {
                   </button> */}
                 </div>
                 <div className="md:pl-4 p-4 mt-8">
-                  <picture>
-                    <img
-                      src={ieopd}
-                      alt="Intelligent Enterprise Operations & Decision Platform"
-                      loading="lazy"
-                      className=" aspect-video rounded-l-md "
-                    />
-                  </picture>
+                  <iframe
+                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7434151448902295552?compact=1"
+                    height="399"
+                    width="800"
+                    frameborder="0"
+                    allowfullscreen=""
+                    title="Embedded post"
+                  ></iframe>
                 </div>
               </div>
             </div>
