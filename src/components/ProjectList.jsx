@@ -1,4 +1,3 @@
-import ieopd from "../assets/ieopd.png";
 import teamhub from "../assets/teamhub.png";
 import workspace from "../assets/workspace.png";
 import ScrollStack, { ScrollStackItem } from "../utils/ScrollStack";
@@ -14,7 +13,7 @@ const ProjectList = () => {
       <div className="">
         <ScrollStack
           itemScale={0.08}
-          itemDistance={150}
+          itemDistance={50}
           baseScale={0.85}
           rotationAmount={1}
         >
@@ -37,15 +36,17 @@ const ProjectList = () => {
                     Read More
                   </button> */}
                 </div>
-                <div className="p-4 mt-8 md:pl-4">
-                  <iframe
-                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7431980134393364480?compact=1"
-                    height="399"
-                    width="704"
-                    frameborder="0"
-                    allowfullscreen=""
-                    title="Embedded post"
-                  ></iframe>
+                <div className="flex justify-center w-full p-4 overflow-hidden">
+                  <div className="scale-[0.8] sm:scale-100 origin-top">
+                    <iframe
+                      src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7431980134393364480?compact=1"
+                      height="399"
+                      width="504"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Embedded post"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -66,15 +67,17 @@ const ProjectList = () => {
                     Read More
                   </button> */}
                 </div>
-                <div className="p-4 mt-8 md:pl-4">
-                  <iframe
-                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7434151448902295552?compact=1"
-                    height="399"
-                    width="800"
-                    frameborder="0"
-                    allowfullscreen=""
-                    title="Intelligent Enterprise Operations & Decision Platform"
-                  ></iframe>
+                <div className="flex justify-center w-full p-4 overflow-hidden">
+                  <div className="scale-[0.8] sm:scale-100 origin-top">
+                    <iframe
+                      src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7434151448902295552?compact=1"
+                      height="399"
+                      width="504"
+                      frameBorder="0"
+                      allowFullScreen
+                      title="Intelligent Enterprise Operations & Decision Platform"
+                    ></iframe>
+                 </div>
                 </div>
               </div>
             </div>

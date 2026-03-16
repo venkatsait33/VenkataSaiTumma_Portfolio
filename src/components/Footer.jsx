@@ -21,7 +21,7 @@ const Footer = () => {
             tvenkatsai33@gmail.com
           </a>
         </div>
-        <div className="flex flex-wrap items-center gap-2 ">
+        <div className="flex items-center gap-2 max-sm:flex-col md:flex-wrap ">
           <div className="flex-1 ">
             <div className=" bg-[#F7F7F7] h-[250px] p-4  mt-4 rounded-xl ">
               <div>
@@ -45,7 +45,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 max-sm:w-[300px]">
             <div className=" bg-[#F7F7F7] h-[250px] p-4  mt-4 rounded-xl ">
               <div className="p-4">
                 <p className="text-base text-gray-600">View</p>
