@@ -18,7 +18,7 @@ const Footer = () => {
               e.preventDefault(); // Prevents default behavior in case `href` doesn't work
             }}
           >
-            tvenkatsai33@gmail.com
+            tummavenkatasai33@gmail.com
           </a>
         </div>
         <div className="flex items-center gap-2 max-sm:flex-col md:flex-wrap ">
